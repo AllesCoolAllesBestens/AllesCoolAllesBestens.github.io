@@ -58,7 +58,7 @@ layout:
   header:
     style: fixed
   sidebar:
-    style: left
+    style: right
 
 topmenu:
   Test Pages:
