@@ -58,28 +58,9 @@ layout:
   header:
     style: fixed
   sidebar:
-    style: right
+    style: left
 
 topmenu:
-  GitHub:
-    Purity:
-      url:   https://github.com/SaswatPadhi/purity-jekyll-theme
-      title: 'Purity repo on GitHub'
-      icon:  git
-    Fork:
-      url:   https://github.com/SaswatPadhi/purity-jekyll-theme#fork-destination-box
-      title: 'Fork Purity'
-      icon:  code-fork
-  Download:
-    Zip:
-      url:   https://github.com/SaswatPadhi/purity-jekyll-theme/archive/master.zip
-      title: 'Download zip source'
-      icon:  download
-  Author:
-    padhi:
-      url:   http://saswatpadhi.github.io
-      title: '@SaswatPadhi on GitHub'
-      icon:  github-alt
   Test Pages:
     headings_test:
       local: tests/headings.md
@@ -95,31 +76,3 @@ sidemenu:
       icon:  user
     split_1:
       type:  spacer
-    github:
-      url:   https://github.com
-      title: GitHub
-      icon:  github
-    bitbucket:
-      url:   https://bitbucket.com
-      title: BitBucket
-      icon:  bitbucket
-    split_2:
-      type:  separator
-    google:
-      url:   https://google.com
-      title: Google
-      icon:  google
-    microsoft:
-      url:   https://microsoft.com
-      title: Microsoft
-      icon:  windows
-    split_3:
-      type:  separator
-    html5:
-      url:   https://en.wikipedia.org/wiki/HTML5
-      title: HTML5 (Wiki)
-      icon:  html5
-    css:
-      url:   https://en.wikipedia.org/wiki/Cascading_Style_Sheets
-      title: CSS (Wiki)
-      icon:  css3
