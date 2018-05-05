@@ -13,24 +13,24 @@ sass:
 
 ## Globals
 
-url:     http://saswatpadhi.github.io
+url:     http://guyincognito.io
 baseurl: /
 
-title:    Purity
-tagline:  A clean, simple theme for Jekyll                             #Optional
-timezone: America/Los_Angeles
+title:    Guy Incognito
+tagline:  Write-ups for stuff I would forget otherwise                             #Optional
+timezone: Europe/Berlin
 
 author:
-  name:     Saswat Padhi
-  link:     http://saswatpadhi.github.io
+  name:     Guy Incognito
+  link:     http://www.guyincognito.io
   photo:
     alt:    Avatar from GitHub
     remote: https://avatars3.githubusercontent.com/u/1577944
 #    local: assets/img/photo.jpg
 
 github:
-  user: SaswatPadhi
-  repo: purity-jekyll-theme
+  user: AllesCoolAllesBestens
+  repo: AllesCoolAllesBestens.github.io
 
 
 ## Theme and Layout
