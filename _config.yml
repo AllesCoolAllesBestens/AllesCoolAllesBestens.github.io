@@ -1,0 +1,125 @@
+# Purity Jekyll Theme
+#=====================
+
+## Plugin Configurations
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  style: compressed
+
+
+## Globals
+
+url:     http://saswatpadhi.github.io
+baseurl: /
+
+title:    Purity
+tagline:  A clean, simple theme for Jekyll                             #Optional
+timezone: America/Los_Angeles
+
+author:
+  name:     Saswat Padhi
+  link:     http://saswatpadhi.github.io
+  photo:
+    alt:    Avatar from GitHub
+    remote: https://avatars3.githubusercontent.com/u/1577944
+#    local: assets/img/photo.jpg
+
+github:
+  user: SaswatPadhi
+  repo: purity-jekyll-theme
+
+
+## Theme and Layout
+
+# Defaults:
+# ---------
+# theme:
+#   tooltips:    enabled
+#   hover_light: enabled
+#
+# fonts:
+#   base: Noto Sans
+#   head: Montserrat
+#   mono: Ubuntu Mono
+#
+# layout:
+#   header:
+#     style: scroll # (can be: scroll | fixed | disabled)
+#   footer:
+#     style: scroll # (can be: scroll | fixed | disabled)
+#   sidebar:
+#     style: left   # (can be: left | right | disabled)
+
+layout:
+  header:
+    style: fixed
+  sidebar:
+    style: right
+
+topmenu:
+  GitHub:
+    Purity:
+      url:   https://github.com/SaswatPadhi/purity-jekyll-theme
+      title: 'Purity repo on GitHub'
+      icon:  git
+    Fork:
+      url:   https://github.com/SaswatPadhi/purity-jekyll-theme#fork-destination-box
+      title: 'Fork Purity'
+      icon:  code-fork
+  Download:
+    Zip:
+      url:   https://github.com/SaswatPadhi/purity-jekyll-theme/archive/master.zip
+      title: 'Download zip source'
+      icon:  download
+  Author:
+    padhi:
+      url:   http://saswatpadhi.github.io
+      title: '@SaswatPadhi on GitHub'
+      icon:  github-alt
+  Test Pages:
+    headings_test:
+      local: tests/headings.md
+
+sidemenu:
+  Test Pages:
+    code_test:
+      local: tests/code.md
+  Links:
+    personal:
+      url:   /
+      title: My website
+      icon:  user
+    split_1:
+      type:  spacer
+    github:
+      url:   https://github.com
+      title: GitHub
+      icon:  github
+    bitbucket:
+      url:   https://bitbucket.com
+      title: BitBucket
+      icon:  bitbucket
+    split_2:
+      type:  separator
+    google:
+      url:   https://google.com
+      title: Google
+      icon:  google
+    microsoft:
+      url:   https://microsoft.com
+      title: Microsoft
+      icon:  windows
+    split_3:
+      type:  separator
+    html5:
+      url:   https://en.wikipedia.org/wiki/HTML5
+      title: HTML5 (Wiki)
+      icon:  html5
+    css:
+      url:   https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+      title: CSS (Wiki)
+      icon:  css3
