@@ -64,6 +64,8 @@ topmenu:
   Test Pages:
     headings_test:
       local: tests/headings.md
+    jupyter_test:
+      local: tests/immo.md
 
 sidemenu:
   Test Pages:
